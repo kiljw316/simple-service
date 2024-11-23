@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: simple-web
-          image: jaewonkil/simple-web
+          image: jaewonkil/simple-web:3
           ports:
             - containerPort:  80
               name: simple-web
